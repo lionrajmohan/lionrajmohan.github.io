@@ -1,0 +1,8 @@
+title: "Prof. K. S. Rajmohan | Academic Website"
+description: "Academic website of Prof. K. S. Rajmohan — research, teaching, research mentoring, academic collaboration and professional activities."
+url: "https://lionrajmohan.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+theme: null
+plugins: []

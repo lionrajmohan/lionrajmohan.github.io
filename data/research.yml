@@ -1,0 +1,20 @@
+- name: Advanced Batteries and Electrochemical Energy Storage
+  group: ENERGY & ELECTROCHEMISTRY
+- name: AI-Driven Materials Discovery and Explainable Machine Learning
+  group: PROCESS & DIGITAL
+- name: Biomass Upcycling, Bioenergy and Circular Bioeconomy
+  group: SUSTAINABLE MATERIALS & CIRCULARITY
+- name: Carbon Nanomaterials and Functional Nanocomposites
+  group: MATERIALS & NANOTECHNOLOGY
+- name: Electrocatalysis and Functional Electrochemical Materials
+  group: ENERGY & ELECTROCHEMISTRY
+- name: Photocatalysis for Energy and Environmental Applications
+  group: ENVIRONMENT & WATER
+- name: Polymer Composites and Multifunctional Materials
+  group: MATERIALS & NANOTECHNOLOGY
+- name: Process Intensification, Flow Chemistry and Advanced Reactors
+  group: PROCESS & DIGITAL
+- name: Smart Coatings, Corrosion and Surface Engineering
+  group: MATERIALS & NANOTECHNOLOGY
+- name: Water Treatment and Environmental Remediation
+  group: ENVIRONMENT & WATER
