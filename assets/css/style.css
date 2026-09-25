@@ -1,1 +1,94 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:#172033;background:#f7f8fb;line-height:1.65}a{color:inherit;text-decoration:none}.site-header{position:sticky;top:0;z-index:50;background:rgba(8,13,24,.97);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:13px 4vw;box-shadow:0 4px 20px rgba(0,0,0,.15)}.brand{display:flex;align-items:center;gap:10px}.brand span{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#fff;color:#111827;font-weight:900}.nav{display:flex;gap:15px;font-size:.82rem}.nav a:hover{text-decoration:underline}.menu-toggle{display:none;background:none;border:0;color:#fff;font-size:1.5rem}.hero{position:relative;min-height:690px;display:flex;align-items:center;overflow:hidden;background:#080e1a;color:#fff}.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.43}.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,8,16,.96),rgba(4,8,16,.58),rgba(4,8,16,.2))}.hero-content{position:relative;z-index:2;max-width:930px;padding:90px 7vw}.eyebrow{letter-spacing:.18em;font-size:.76rem;font-weight:800;margin:0 0 10px;opacity:.72}.hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.9;margin:0;font-weight:900;letter-spacing:-.06em}.hero h2{font-size:clamp(1.3rem,2.5vw,2.2rem);margin:24px 0 4px}.role{font-size:1.05rem}.tagline{font-size:1.25rem;font-weight:800;margin-top:28px}.identity{opacity:.82}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-block;border:1px solid #cfd5df;padding:10px 18px;border-radius:999px;font-weight:800}.btn.primary{background:#fff;color:#111827;border-color:#fff}.btn.dark{background:#111827;color:#fff;border-color:#111827}.profile-badge{position:absolute;right:6vw;bottom:55px;z-index:2;width:170px;height:170px;border-radius:50%;overflow:hidden;border:5px solid rgba(255,255,255,.8);box-shadow:0 15px 45px rgba(0,0,0,.35)}.profile-badge img{width:100%;height:100%;object-fit:cover}.ticker{overflow:hidden;background:#fff;border-bottom:1px solid #e7eaf0;white-space:nowrap}.ticker-track{display:inline-block;padding:12px 0;animation:scroll 28s linear infinite;font-weight:700;letter-spacing:.04em}@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}.stats{display:grid;grid-template-columns:repeat(4,1fr);background:#101827;color:#fff}.stats div{padding:32px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}.stats strong{display:block;font-size:2.5rem;line-height:1}.stats span{display:block;margin-top:8px;opacity:.75;font-size:.9rem}.section{max-width:1200px;margin:auto;padding:80px 5vw}.section-heading{max-width:800px;margin-bottom:35px}.section h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;margin:0 0 14px}.grid.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card,.theme-card{background:#fff;border:1px solid #e6e9ef;border-radius:20px;padding:28px;transition:.25s;box-shadow:0 8px 25px rgba(20,30,50,.04)}.card:hover,.theme-card:hover{transform:translateY(-5px);box-shadow:0 18px 35px rgba(20,30,50,.1)}.card span,.theme-card span{font-weight:900;opacity:.4}.card h3,.theme-card h3{font-size:1.2rem;margin:10px 0}.dark-section{max-width:none;background:#0b1220;color:#fff}.dark-section .section-heading{margin-left:auto;margin-right:auto;max-width:1200px}.theme-grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.theme-card{background:#111a2b;color:#fff;border-color:#243149}.theme-card p{opacity:.65}.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.quote-box{font-size:1.7rem;font-weight:700;padding:40px;border-left:5px solid #172033;background:#fff}.page-hero{background:#0b1220;color:#fff;padding:90px 6vw}.page-hero h1{font-size:clamp(2.5rem,6vw,5rem);line-height:1;margin:0 0 18px}.page-hero p{max-width:800px;font-size:1.1rem;opacity:.78}.page-content{min-height:55vh}.timeline{border-left:3px solid #cdd3df;padding-left:30px}.timeline-item{position:relative;margin:0 0 35px}.timeline-item:before{content:'';position:absolute;left:-41px;top:6px;width:15px;height:15px;border-radius:50%;background:#172033}.table-wrap{overflow:auto}.pub-table{width:100%;border-collapse:collapse;background:#fff}.pub-table th,.pub-table td{padding:13px;border-bottom:1px solid #e5e8ee;text-align:left;vertical-align:top}.pub-table th{background:#eef1f6}.tag{display:inline-block;padding:4px 9px;border-radius:999px;background:#e9edf4;font-size:.75rem}.site-footer{background:#070c16;color:#fff;padding:45px 6vw;display:flex;gap:40px;justify-content:space-between;flex-wrap:wrap}.footer-links{display:flex;gap:14px;flex-wrap:wrap}.site-footer small{width:100%;opacity:.55}.footnote{max-width:1200px;margin:0 auto 40px;padding:0 5vw;font-size:.78rem;opacity:.6}@media(max-width:1050px){.nav{display:none;position:absolute;top:64px;left:0;right:0;background:#0a101e;padding:20px;flex-direction:column}.nav.open{display:flex}.menu-toggle{display:block}.stats{grid-template-columns:repeat(2,1fr)}.grid.cards{grid-template-columns:repeat(2,1fr)}.profile-badge{right:5vw;width:130px;height:130px}}@media(max-width:700px){.hero{min-height:760px}.hero-content{padding:70px 7vw}.hero h1{font-size:3.5rem}.profile-badge{right:7vw;bottom:25px;width:95px;height:95px}.stats,.grid.cards,.theme-grid,.split{grid-template-columns:1fr}.section{padding:60px 6vw}}
+```css
+/*
+============================================================
+PROF. K. S. RAJMOHAN — WEBSITE MASTER STYLESHEET
+============================================================
+
+FILE:
+assets/css/style.css
+
+PURPOSE:
+Controls the complete visual appearance of the website.
+
+MAIN AREAS:
+1. Global typography and colours
+2. Header and navigation
+3. Homepage hero image and profile image
+4. Running research ticker
+5. Statistics
+6. Content cards and research themes
+7. Page heroes and content
+8. Timeline and publication tables
+9. Footer
+10. Responsive/mobile layout
+
+IMPORTANT:
+- Images are stored in: assets/images/
+- Homepage hero image: image2.jpg
+- Homepage profile image: image1.jpg
+- Image paths themselves are controlled by index.md.
+- This file controls how those images are displayed.
+
+SAFE TO EDIT:
+- Colours
+- Spacing
+- Font sizes
+- Image opacity
+- Image positioning
+- Border radius
+- Shadows
+
+DO NOT CHANGE WITHOUT CARE:
+- Class names such as .hero, .hero-image,
+  .hero-overlay, .hero-content and .profile-badge.
+  These names are used by index.md.
+
+DESIGN PRINCIPLE:
+The website should remain visually strong, professional,
+responsive and maintainable for long-term academic use.
+
+============================================================
+*/
+
+
+/* ==========================================================
+   1. GLOBAL
+   ========================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+  color: #172033;
+  background: #f7f8fb;
+  line-height: 1.65;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* ==========================================================
+   2. HEADER / NAVIGATION
+   ========================================================== */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(8, 13, 24, 0.97);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: s
+```
