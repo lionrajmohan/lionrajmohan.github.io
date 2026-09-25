@@ -3,8 +3,7 @@
 layout: default
 title: "Prof. K. S. Rajmohan"
 description: "Materials, Energy, Electrochemistry, Water and Environmental Technologies"
-----------------------------------------------------------------------------------------
-
+---
 <section class="hero">
 <img class="hero-image" src="{{ '/assets/images/image2.jpg' | relative_url }}" alt="Battery and electrochemical energy research">
 <div class="hero-overlay"></div><div class="hero-content">
