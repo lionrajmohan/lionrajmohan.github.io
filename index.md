@@ -35,6 +35,33 @@ The image path unless the file is moved or renamed.
   <!-- GREEN LAB IDENTITY BELOW IMAGE -->
   <div class="hero-content">
 
+    <!--
+============================================================
+HERO IMAGE + GREEN LAB IDENTITY
+============================================================
+PURPOSE:
+Displays the GREEN Lab image in full before the main identity.
+
+EDIT HERE:
+Change image2.jpg only if the main GREEN Lab image changes.
+
+DATA SOURCE:
+assets/images/image2.jpg
+
+DO NOT CHANGE:
+The image path unless the file is moved or renamed.
+============================================================
+-->
+
+<section class="hero">
+
+  <div class="hero-image-full">
+    <img src="{{ '/assets/images/image2.jpg' | relative_url }}"
+         alt="Green Research on Energy and Environment Nexus (GREEN Lab)">
+  </div>
+
+  <div class="hero-content">
+
     <p class="eyebrow">COOL PROFESSOR</p>
 
     <h1>
@@ -81,14 +108,12 @@ The image path unless the file is moved or renamed.
 
   </div>
 
-  <!-- PROFILE PHOTO -->
   <div class="profile-badge">
     <img src="{{ '/assets/images/image1.jpg' | relative_url }}"
          alt="Prof. K. S. Rajmohan">
   </div>
 
 </section>
-
 <div class="ticker"><div class="ticker-track">Research • Innovation • Research Mentoring • Academic Collaboration • Materials • Energy • Electrochemistry • Water • Environmental Technologies •</div></div>
 
 <section class="stats">
