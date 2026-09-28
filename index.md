@@ -4,7 +4,7 @@ layout: default
 title: "Prof. K. S. Rajmohan"
 description: "Materials, Energy, Electrochemistry, Water and Environmental Technologies"
 ---
-#THIS IS WHERE YOU CAN REIVSE THE TILE PAGE NAMES 
+<!-- EDIT PAGE TITLE NAMES HERE IF REQUIRED --> 
 <!--
 ============================================================
 HERO IMAGE + GREEN LAB IDENTITY
