@@ -54,14 +54,14 @@ The image paths unless the files are moved or renamed.
 
   <div class="hero-content">
 
-    <p class="eyebrow">COOL PROFESSOR</p>
+    <p class="eyebrow">Prof. K. S. Rajmohan'S Research Group</p>
 
     <h1>
-      <a href="{{ '/research/' | relative_url }}">GREEN LAB</a>
+      <a href="{{ '/research/' | relative_url }}">Green Research on Energy and Environment Nexus</a>
     </h1>
 
     <p class="hero-lab-name">
-      Green Research on Energy and Environment Nexus
+      (GREEN Lab)
     </p>
 
     <h2>Prof. K. S. Rajmohan Research Group</h2>
