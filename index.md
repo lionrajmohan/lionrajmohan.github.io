@@ -4,12 +4,26 @@ layout: default
 title: "Prof. K. S. Rajmohan"
 description: "Materials, Energy, Electrochemistry, Water and Environmental Technologies"
 ---
+#THIS IS WHERE YOU CAN REIVSE THE TILE PAGE NAMES 
 <section class="hero">
 <img class="hero-image" src="{{ '/assets/images/image2.jpg' | relative_url }}" alt="Battery and electrochemical energy research">
 <div class="hero-overlay"></div><div class="hero-content">
-<p class="eyebrow">COOL PROFESSOR</p><h1>LION RAJMOHAN</h1><h2>Prof. K. S. Rajmohan</h2>
-<p class="role">Associate Professor · Department of Chemical Engineering · NIT Warangal</p>
-<p class="tagline">Research • Innovation • Research Mentoring • Academic Collaboration</p>
+<p class="eyebrow">COOL PROFESSOR</p>
+
+<h1>
+  <a href="{{ '/research/' | relative_url }}">GREEN LAB</a>
+</h1>
+
+<p class="hero-lab-name">
+  Green Research on Energy and Environment Nexus
+</p>
+
+<h2>Prof. K. S. Rajmohan Research Group</h2>
+
+<p class="role">
+  Associate Professor · Department of Chemical Engineering · NIT Warangal
+</p>
+<p class="tagline">Research • Innovation • Research Mentoring • Outreach & Collaboration </p>
 <p class="identity">Materials • Energy • Electrochemistry • Water • Environmental Technologies</p>
 <div class="hero-actions"><a class="btn primary" href="{{ '/research/' | relative_url }}">Explore Research</a><a class="btn" href="{{ '/opportunities/' | relative_url }}">Research Opportunities</a><a class="btn" href="{{ '/contact/' | relative_url }}">Collaborate</a></div></div>
 <div class="profile-badge"><img src="{{ '/assets/images/image1.jpg' | relative_url }}" alt="Prof. K. S. Rajmohan"></div>
