@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: default
 title: "Prof. K. S. Rajmohan"
@@ -109,13 +108,6 @@ The image paths unless the files are moved or renamed.
 </section>
 
 
-<!--
-============================================================
-RUNNING RESEARCH TICKER
-============================================================
-PURPOSE:
-Provides a visual research
-```html
 <!--
 ============================================================
 RUNNING RESEARCH TICKER
@@ -340,7 +332,7 @@ Gateway to the publication database.
     <p>
       Publication records are being structured by year, type,
       research theme and DOI/publisher information. The database
-      will be progressively cleaned and verified.
+      vwill be progressively cleaned and verified.
     </p>
 
   </div>
@@ -465,4 +457,38 @@ description and YouTube playlist URL.
       <span>04</span>
       <h3>Chemical Process Calculations</h3>
       <p>
-        Teaching resources for chemical process calculations. </p> </a> <a class="card" href="https://www.youtube.com/playlist?list=PL23LJMmRTn8dZ9iFJiAm7JZZ5VJAwJYh5" target="_blank" rel="noopener"> <span>05</span> <h3>Fuel Cells and Batteries</h3> <p> Learning resources covering fuel cells and battery technologies. </p> </a> <a class="card" href="https://www.youtube.com/playlist?list=PL23LJMmRTn8cnMOjWTnVa6v01gnNbhtmL" target="_blank" rel="noopener"> <span>06</span> <h3>Biochemical Engineering</h3> <p> Lecture and learning resources in biochemical engineering. </p> </a> </div> <div style="margin-top: 24px;"> <a class="btn dark" href="https://www.youtube.com/@LionRajmohan" target="_blank" rel="noopener"> Visit YouTube Channel </a> </div> </section>
+        Teaching resources for chemical process calculations.
+      </p>
+    </a>
+
+    <a class="card"
+       href="https://www.youtube.com/playlist?list=PL23LJMmRTn8dZ9iFJiAm7JZZ5VJAwJYh5"
+       target="_blank"
+       rel="noopener">
+      <span>05</span>
+      <h3>Fuel Cells and Batteries</h3>
+      <p>
+        Learning resources covering fuel cells and battery technologies.
+      </p>
+    </a>
+
+    <a class="card"
+       href="https://www.youtube.com/playlist?list=PL23LJMmRTn8cnMOjWTnVa6v01gnNbhtmL"
+       target="_blank"
+       rel="noopener">
+      <span>06</span>
+      <h3>Biochemical Engineering</h3>
+      <p>
+        Lecture and learning resources in biochemical engineering.
+      </p>
+    </a>
+
+  </div>
+
+  <div style="margin-top: 24px;">
+    <a class="btn dark" href="https://www.youtube.com/@LionRajmohan" target="_blank" rel="noopener">
+      Visit YouTube Channel
+    </a>
+  </div>
+
+</section>
