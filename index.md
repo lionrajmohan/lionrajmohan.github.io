@@ -5,28 +5,88 @@ title: "Prof. K. S. Rajmohan"
 description: "Materials, Energy, Electrochemistry, Water and Environmental Technologies"
 ---
 #THIS IS WHERE YOU CAN REIVSE THE TILE PAGE NAMES 
+<!--
+============================================================
+HERO IMAGE + GREEN LAB IDENTITY
+============================================================
+PURPOSE:
+Displays the GREEN Lab image in full before the main
+identity and navigation content.
+
+EDIT HERE:
+Change image2.jpg only if the main GREEN Lab image changes.
+
+DATA SOURCE:
+assets/images/image2.jpg
+
+DO NOT CHANGE:
+The image path unless the file is moved or renamed.
+============================================================
+-->
+
 <section class="hero">
-<img class="hero-image" src="{{ '/assets/images/image2.jpg' | relative_url }}" alt="Battery and electrochemical energy research">
-<div class="hero-overlay"></div><div class="hero-content">
-<p class="eyebrow">COOL PROFESSOR</p>
 
-<h1>
-  <a href="{{ '/research/' | relative_url }}">GREEN LAB</a>
-</h1>
+  <!-- FULL GREEN LAB IMAGE -->
+  <div class="hero-image-full">
+    <img src="{{ '/assets/images/image2.jpg' | relative_url }}"
+         alt="Green Research on Energy and Environment Nexus (GREEN Lab)">
+  </div>
 
-<p class="hero-lab-name">
-  Green Research on Energy and Environment Nexus
-</p>
+  <!-- GREEN LAB IDENTITY BELOW IMAGE -->
+  <div class="hero-content">
 
-<h2>Prof. K. S. Rajmohan Research Group</h2>
+    <p class="eyebrow">COOL PROFESSOR</p>
 
-<p class="role">
-  Associate Professor · Department of Chemical Engineering · NIT Warangal
-</p>
-<p class="tagline">Research • Innovation • Research Mentoring • Outreach & Collaboration </p>
-<p class="identity">Materials • Energy • Electrochemistry • Water • Environmental Technologies</p>
-<div class="hero-actions"><a class="btn primary" href="{{ '/research/' | relative_url }}">Explore Research</a><a class="btn" href="{{ '/opportunities/' | relative_url }}">Research Opportunities</a><a class="btn" href="{{ '/contact/' | relative_url }}">Collaborate</a></div></div>
-<div class="profile-badge"><img src="{{ '/assets/images/image1.jpg' | relative_url }}" alt="Prof. K. S. Rajmohan"></div>
+    <h1>
+      <a href="{{ '/research/' | relative_url }}">GREEN LAB</a>
+    </h1>
+
+    <p class="hero-lab-name">
+      Green Research on Energy and Environment Nexus
+    </p>
+
+    <h2>Prof. K. S. Rajmohan Research Group</h2>
+
+    <p class="role">
+      Associate Professor · Department of Chemical Engineering · NIT Warangal
+    </p>
+
+    <p class="tagline">
+      Research • Innovation • Research Mentoring • Outreach & Collaboration
+    </p>
+
+    <p class="identity">
+      Materials • Energy • Electrochemistry • Water • Environmental Technologies
+      • Coatings • Corrosion • Surface Engineering
+    </p>
+
+    <div class="hero-actions">
+
+      <a class="btn primary"
+         href="{{ '/research/' | relative_url }}">
+        Explore Research
+      </a>
+
+      <a class="btn"
+         href="{{ '/opportunities/' | relative_url }}">
+        Research Opportunities
+      </a>
+
+      <a class="btn"
+         href="{{ '/contact/' | relative_url }}">
+        Collaborate
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- PROFILE PHOTO -->
+  <div class="profile-badge">
+    <img src="{{ '/assets/images/image1.jpg' | relative_url }}"
+         alt="Prof. K. S. Rajmohan">
+  </div>
+
 </section>
 
 <div class="ticker"><div class="ticker-track">Research • Innovation • Research Mentoring • Academic Collaboration • Materials • Energy • Electrochemistry • Water • Environmental Technologies •</div></div>
