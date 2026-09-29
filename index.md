@@ -64,7 +64,9 @@ The image paths unless the files are moved or renamed.
       (GREEN Lab)
     </p>
 
-    <h2>Prof. Rajmohan Soundararajan </h2>
+    <h2>
+    Prof. Rajmohan Soundararajan 
+    </h2>
 
     <p class="role">
       Associate Professor · Department of Chemical Engineering · NIT Warangal
