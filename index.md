@@ -51,6 +51,85 @@ The image paths unless the files are moved or renamed.
     <img src="{{ '/assets/images/image2.jpg' | relative_url }}"
          alt="Green Research on Energy and Environment Nexus (GREEN Lab)">
   </div>
+```html
+<!--
+============================================================
+ACHIEVEMENT BANNER CAROUSEL
+============================================================
+Images are automatically collected from:
+assets/images/achievements/
+
+To add a future achievement:
+Upload the image to that folder.
+No HTML editing is required.
+
+Recommended poster ratio: 3:1
+============================================================
+-->
+
+<section class="achievement-carousel" aria-label="Achievements and recognitions">
+
+  <div class="achievement-track">
+
+    {% assign achievement_images = site.static_files
+      | where_exp: "file", "file.path contains '/assets/images/achievements/'" %}
+
+    {% assign achievement_images = achievement_images | sort: "name" %}
+
+    {% for image in achievement_images %}
+      {% if image.extname == '.jpg'
+         or image.extname == '.jpeg'
+         or image.extname == '.png'
+         or image.extname == '.webp' %}
+
+        <div class="achievement-slide">
+          <img src="{{ image.path | relative_url }}"
+               alt="Achievement and professional recognition"
+               loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+        </div>
+
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+  {% if achievement_images.size > 1 %}
+
+    <button class="achievement-prev"
+            type="button"
+            aria-label="Previous achievement">
+      &#10094;
+    </button>
+
+    <button class="achievement-next"
+            type="button"
+            aria-label="Next achievement">
+      &#10095;
+    </button>
+
+    <div class="achievement-dots" aria-label="Achievement slides">
+
+      {% for image in achievement_images %}
+        {% if image.extname == '.jpg'
+           or image.extname == '.jpeg'
+           or image.extname == '.png'
+           or image.extname == '.webp' %}
+
+          <button type="button"
+                  class="achievement-dot{% if forloop.first %} active{% endif %}"
+                  aria-label="Show achievement {{ forloop.index }}"
+                  data-slide="{{ forloop.index0 }}">
+          </button>
+
+        {% endif %}
+      {% endfor %}
+
+    </div>
+
+  {% endif %}
+
+</section>
+```
 
   <div class="hero-content">
 
