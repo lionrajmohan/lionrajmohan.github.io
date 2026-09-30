@@ -823,3 +823,188 @@ h4 {
   }
 }
 ```
+```css
+/* ============================================================
+   ACHIEVEMENT CAROUSEL — FINAL FULL-WIDTH 16:9 VERSION
+   ============================================================
+   PURPOSE:
+   Displays achievement posters immediately below image2.jpg.
+
+   DESIGN STANDARD:
+   - Same 16:9 ratio as image2.jpg
+   - Same full browser/website width as image2.jpg
+   - Smooth fade transition
+   - Automatic rotation every 10 seconds
+   - Previous / Next controls
+   - Slide indicators
+
+   FUTURE MAINTENANCE:
+   Add new JPG/PNG/WebP posters to:
+   assets/images/achievements/
+
+   No HTML or CSS editing is required for new posters.
+
+   POSTER STANDARD:
+   Use PowerPoint Widescreen (16:9) for all future posters.
+
+   IMPORTANT:
+   This block is intentionally at the END of style.css.
+   It overrides earlier achievement-carousel rules only.
+   Do not move or modify unrelated website CSS.
+   ============================================================ */
+
+.achievement-carousel {
+  position: relative;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #111827;
+}
+
+.achievement-track {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.achievement-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease;
+}
+
+.achievement-slide.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+
+.achievement-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+/* ------------------------------------------------------------
+   PREVIOUS / NEXT BUTTONS
+   ------------------------------------------------------------ */
+
+.achievement-prev,
+.achievement-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+
+  font-size: 24px;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.achievement-prev {
+  left: 15px;
+}
+
+.achievement-next {
+  right: 15px;
+}
+
+.achievement-prev:hover,
+.achievement-next:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* ------------------------------------------------------------
+   SLIDE INDICATORS
+   ------------------------------------------------------------ */
+
+.achievement-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 12px;
+
+  transform: translateX(-50%);
+
+  z-index: 6;
+
+  display: flex;
+  gap: 7px;
+}
+
+.achievement-dot {
+  width: 9px;
+  height: 9px;
+
+  padding: 0;
+
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.45);
+
+  cursor: pointer;
+}
+
+.achievement-dot.active {
+  background: #ffffff;
+}
+
+/* ------------------------------------------------------------
+   MOBILE
+   ------------------------------------------------------------ */
+
+@media (max-width: 700px) {
+
+  .achievement-track {
+    aspect-ratio: 16 / 9;
+  }
+
+  .achievement-prev,
+  .achievement-next {
+    width: 32px;
+    height: 32px;
+
+    font-size: 18px;
+  }
+
+  .achievement-prev {
+    left: 8px;
+  }
+
+  .achievement-next {
+    right: 8px;
+  }
+
+  .achievement-dots {
+    bottom: 6px;
+    gap: 5px;
+  }
+
+  .achievement-dot {
+    width: 7px;
+    height: 7px;
+  }
+}
+```
